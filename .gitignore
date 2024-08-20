@@ -1,0 +1,10 @@
+# Python
+__pycache__
+
+# Virtual environment
+.venv
+poetry.lock
+.python-version
+
+# Private data
+.env

@@ -1,0 +1,32 @@
+[
+    {
+        "model": "electronics_store.product",
+        "pk": 1,
+        "fields": {
+            "name": "Смартфон",
+            "model": "X100",
+            "release_date": "2024-01-10",
+            "network_node": 1
+        }
+    },
+    {
+        "model": "electronics_store.product",
+        "pk": 2,
+        "fields": {
+            "name": "Ноутбук",
+            "model": "N200",
+            "release_date": "2023-11-15",
+            "network_node": 2
+        }
+    },
+    {
+        "model": "electronics_store.product",
+        "pk": 3,
+        "fields": {
+            "name": "Планшет",
+            "model": "T300",
+            "release_date": "2024-02-20",
+            "network_node": 3
+        }
+    }
+]

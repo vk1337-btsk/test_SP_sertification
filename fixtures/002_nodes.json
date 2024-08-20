@@ -1,0 +1,49 @@
+[
+    {
+        "model": "electronics_store.networknode",
+        "pk": 1,
+        "fields": {
+            "name": "Завод Электроника",
+            "email": "factory@electronics.com",
+            "country": "Россия",
+            "city": "Москва",
+            "street": "Ленина",
+            "house_number": "1",
+            "level": 0,
+            "debt": "0.00",
+            "created_at": "2024-08-20T12:00:00Z"
+        }
+    },
+    {
+        "model": "electronics_store.networknode",
+        "pk": 2,
+        "fields": {
+            "name": "Розничная сеть Электроника",
+            "email": "retail@electronics.com",
+            "country": "Россия",
+            "city": "Москва",
+            "street": "Тверская",
+            "house_number": "10",
+            "level": 1,
+            "supplier": 1,
+            "debt": "50000.00",
+            "created_at": "2024-08-20T12:10:00Z"
+        }
+    },
+    {
+        "model": "electronics_store.networknode",
+        "pk": 3,
+        "fields": {
+            "name": "Индивидуальный предприниматель Иванов",
+            "email": "ivanov@business.com",
+            "country": "Россия",
+            "city": "Санкт-Петербург",
+            "street": "Невский проспект",
+            "house_number": "5",
+            "level": 2,
+            "supplier": 2,
+            "debt": "3000.00",
+            "created_at": "2024-08-20T12:20:00Z"
+        }
+    }
+]
